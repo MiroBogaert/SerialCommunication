@@ -126,13 +126,15 @@
             // 
             // buttonConnect
             // 
+            this.buttonConnect.BackColor = System.Drawing.Color.ForestGreen;
+            this.buttonConnect.ForeColor = System.Drawing.Color.White;
             this.buttonConnect.Location = new System.Drawing.Point(288, 18);
             this.buttonConnect.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonConnect.Name = "buttonConnect";
             this.buttonConnect.Size = new System.Drawing.Size(112, 35);
             this.buttonConnect.TabIndex = 7;
             this.buttonConnect.Text = "Connect";
-            this.buttonConnect.UseVisualStyleBackColor = true;
+            this.buttonConnect.UseVisualStyleBackColor = false;
             this.buttonConnect.Click += new System.EventHandler(this.buttonConnect_Click);
             // 
             // labelPoort
